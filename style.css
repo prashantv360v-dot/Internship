@@ -47,7 +47,18 @@ h1{
     height: auto;
     border-radius: 8px;
     margin-bottom: 1rem; 
+    
 }
+@media (max-width: 750px){
+    .biography img{
+        width: 100%;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+}  
 
 /* Achievements Styles */
 .achievements{
