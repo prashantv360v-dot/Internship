@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Arial', sans-serif;
+    background-color: gray;
+    color: #333;
+}
+
+/* header style*/
+header{
+    background-color: rgb(179, 134, 221);
+    color: rgb(15, 126, 47);
+    padding: 1rem 0;
+    text-align: center;
+    width: 100%;
+    border-bottom: 2px solid rgb(179 134 221);
+    border-radius: 0 0 10px 10px;
+}
+h1{
+    font-size: 2.5rem;
+    margin:0 auto;
+}
+/* container style */
+.container{
+    max-width: 900px;
+    margin: 1.5rem auto;
+    padding: 0 0.5rem;
+}
+.imges{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.container img{  
+    max-width: 100%;
+    height: 30vh;
+    border-radius: 50%;   
+}
+.container h2{
+    background-color: orange;
+    width: 100%;
+    font-size: 2rem;
+    color: black;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bio{
+    background-color: lightgreen;
+    color: black;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-bottom: 2rem;
+
+}
+.hobbies{
+    background-color: lightcoral;
+    color: black;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-bottom: 2rem;
+}
+.skills{
+    background-color: lightseagreen;
+    color: black;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-bottom: 2rem;
+
+}
+.contact{
+    background-color: lightsalmon;
+    color: black;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-bottom: 2rem;
+
+}
+footer{
+    height: 10vh;
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer p{
+    font-size: 2rem;
+
+}
